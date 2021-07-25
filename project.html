@@ -1,38 +1,163 @@
-<!DOCTYPE html>
-<html>
+
+<!doctype html>
+<html lang="en">
+
 <head>
-	<title>My First Project</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style type="text/css">
+      a{
+        color:white;
+      }
+      a:hover{
+        /* background-color: #17a2b8; */
+        background-color:rgb(255, 255, 255);
+        /* font-weight: bold; */
+        color: black;
+        padding: 8px 6px;
+      }
+      .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* background-color: rgb(241, 237, 237); */
+  color:black;
+  text-align: right;
+}
+body{
+  background-color: rgb(255, 254, 254);
+}
+  </style>
+  <title>Time Table</title>
 </head>
+
 <body>
-	<h1>Vedant Sultania</h1>
-	<nav>
-	    <a href="https://www.youtube.com/">One</a>
-	    <a href="https://www.google.com/">Two</a>
-	    <a href="https://www.facebook.com/">Three</a>
-	    <a href="http://www.twitter.com/">Open Fast</a>
-	</nav>
-	<h2>Favorite Foods</h2>
-	<ul>
-		<li>Dosa</li>
-		<li>Chowmein</li>
-		<li>Momo</li>
-		<li>Vanilla cake</li>
-	</ul>
-    <h2>Achievements</h2>
-    <label for="file">Progress in this Course(100%)</label>
-     <progress id="file" value="100" max="100"> 100% </progress><br>
-     <label for="file1">Progress in the Specialization capstone(20%)</label>
-     <progress id="file1" value="20" max="100"> 20% </progress><br>
-     <label for="file2">Progress in learning Coding(50%)</label>
-     <progress id="file2" value="50" max="100"> 50% </progress>
-    <h2>More About Me</h2>
-    <details>
-    	<summary>My Childhood</summary>
-    	<p>I grew up in Khagaria,famous for agriculture of maize.</p>
-    </details>
-    <footer>
-        <a href="http://intro-webdesign.com/"><img src="http://www.intro-webdesign.com/images/newlogo.png" alt="logo"/></a>
-        <p>This page was created by Vedant Sultania and Colleen van Lent. To learn more about web design, visit <a href="http://www.intro-webdesign.com.">Intro to Web Design.</a></p>
-    </footer>
+  <div class="text-center table-responsive">
+    <h1>Time Table</h1>
+    <h3>S1 Chemical Engineering</h3>
+    <h5>2nd Year B.Tech</h5>
+    <table class="table table-bordered table-dark" style="border-color: white;">
+      <colgroup>
+        <col span="2" class="bg-info">
+        </col>
+        <col span="8">
+        </col>
+        <col class="bg-info">
+        </col>
+        <col span="6">
+        </col>
+        <col class="bg-info">
+        </col>
+        <col span="6">
+        </col>
+      </colgroup>
+      <thead>
+        <tr class="bg-info">
+          <th scope="col" colspan="2"></th>
+          <th scope="col" colspan="2">8:30-9:25</th>
+          <th scope="col" colspan="2">9:30-10:25</th>
+          <th scope="col" colspan="2">10:35-11:30</th>
+          <th scope="col" colspan="2">11:35-12:30</th>
+          <th scope="col"></th>
+          <th scope="col" colspan="3">2:00-3:25</th>
+          <th scope="col" colspan="3">3:30-5:00</th>
+          <th scope="col"></th>
+          <th scope="col" colspan="3">5:30-6:55</th>
+          <th scope="col" colspan="3">7:00-8:25</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th colspan="2" scope="row">Monday</th>
+          <td colspan="2"></td>
+          <td colspan="2"><a href="https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_Zjg1ZWI0YjItMDQ4ZS00NmE4LWI0ZjAtZGY3NmM1OThhNDMz%40thread.v2%2F0%3Fcontext%3D%257B%2522Tid%2522%253A%2522403ee5f4-55b3-45cd-8ae2-824be887a075%2522%252C%2522Oid%2522%253A%2522b5db477e-4fe0-402c-9e76-a10ffb24bd67%2522%257D%26anon%3Dtrue&type=meetup-join&deeplinkId=15b7904f-0c79-4780-9eb5-10153f8eb11b&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true" target="_blank" rel="noopener noreferrer">CL254</a></td>
+          <td colspan="2"><a href="https://meet.google.com/dtx-simf-vyw" target="_blank" rel="noopener noreferrer">CL250</a></td>
+          <td colspan="2"><a href="https://teams.microsoft.com/l/team/19%3a46f96322663a41ca8a3564a5bda15272%40thread.tacv2/conversations?groupId=31d7bb24-2124-416a-b05a-4198677ec886&tenantId=403ee5f4-55b3-45cd-8ae2-824be887a075" target="_blank" rel="noopener noreferrer">HS101</a></td>
+          <td></td>
+          <td colspan="3"></td>
+          <td colspan="3"><a href="https://meet.google.com/kpz-sssa-qsu?hs=224" target="_blank" rel="noopener noreferrer">GNR629</a></td>
+          <td></td>
+          <td colspan="3"></td>
+          <td colspan="3"></td>
+        </tr>
+        <tr>
+          <th colspan="2" scope="row">Tuesday</th>
+          <td colspan="2"><a href="https://teams.microsoft.com/l/team/19%3a46f96322663a41ca8a3564a5bda15272%40thread.tacv2/conversations?groupId=31d7bb24-2124-416a-b05a-4198677ec886&tenantId=403ee5f4-55b3-45cd-8ae2-824be887a075" target="_blank" rel="noopener noreferrer">HS101</a></td>
+          <td colspan="2"></td>
+          <td colspan="2"><a href="https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_Y2M3NmM2Y2QtNjRlNC00YjI0LTk2ZGUtNTk2OTdmNzVlZDJi%40thread.v2%2F0%3Fcontext%3D%257B%2522Tid%2522%253A%2522403ee5f4-55b3-45cd-8ae2-824be887a075%2522%252C%2522Oid%2522%253A%2522b5db477e-4fe0-402c-9e76-a10ffb24bd67%2522%257D%26anon%3Dtrue&type=meetup-join&deeplinkId=7b4ebf32-b29a-428f-b6ee-059e46bc05d9&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true" target="_blank" rel="noopener noreferrer">CL254</a></td>
+          <td colspan="2"><a href="https://meet.google.com/met-cird-ahv" target="_blank" rel="noopener noreferrer">CL250</a></td>
+          <td></td>
+          <td colspan="3"></td>
+          <td colspan="3"></td>
+          <td></td>
+          <td colspan="3"><a href="https://teams.microsoft.com/l/team/19%3a2f00ce5e25c14da8ab3100d8103d7202%40thread.tacv2/conversations?groupId=5fe9c08a-d8ed-4f4d-be0f-fa7cb9c5c36a&tenantId=403ee5f4-55b3-45cd-8ae2-824be887a075" target="_blank" rel="noopener noreferrer">CL202</a></td>
+          <td colspan="3"><a href="https://kaksha.webex.com/webappng/sites/kaksha/meeting/download/bd67ea3327dd4266a720b2606a2e781d?siteurl=kaksha&MTID=m39abb9b248f2119689fa561d6afa19c1" target="_blank" rel="noopener noreferrer">CL246</a></td>
+        </tr>
+        
+        <tr>
+          <th colspan="2" scope="row">Wednesday</th>
+          <td colspan="2"></td>
+          <td colspan="3"><a href="https://piazza.com/class/kjl7jdxnkeb1zn" target="_blank" rel="noopener noreferrer">CS213M</a></td>
+          <td colspan="3"></td>
+          <td></td>
+          <td colspan="2"></td>
+          <td colspan="2"><https://teams.microsoft.com/l/team/19%3a2f00ce5e25c14da8ab3100d8103d7202%40thread.tacv2/conversations?groupId=5fe9c08a-d8ed-4f4d-be0f-fa7cb9c5c36a&tenantId=403ee5f4-55b3-45cd-8ae2-824be887a075">CL202</a></td>
+          <td colspan="2"></td>
+          <td></td>
+          <td colspan="3"></td>
+          <td colspan="3"></td>
+        </tr>
+        
+        <tr>
+          <th colspan="2" scope="row">Thursday</th>
+          <td colspan="2"><a href="https://meet.google.com/req-hugr-cqn" target="_blank" rel="noopener noreferrer">CL250</a></td>
+          <td colspan="2"><a href="https://teams.microsoft.com/l/team/19%3a46f96322663a41ca8a3564a5bda15272%40thread.tacv2/conversations?groupId=31d7bb24-2124-416a-b05a-4198677ec886&tenantId=403ee5f4-55b3-45cd-8ae2-824be887a075" target="_blank" rel="noopener noreferrer">HS101</a></td>
+          <td colspan="2"></td>
+          <td colspan="2"><a href="https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_NWQwN2I2ZmEtNDQ2OS00MDFkLWIwNmUtM2Y5NWU3NTcxZTdj%40thread.v2%2F0%3Fcontext%3D%257B%2522Tid%2522%253A%2522403ee5f4-55b3-45cd-8ae2-824be887a075%2522%252C%2522Oid%2522%253A%2522b5db477e-4fe0-402c-9e76-a10ffb24bd67%2522%257D%26anon%3Dtrue&type=meetup-join&deeplinkId=89c9b008-cebb-4af1-880a-97e1dc83e669&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true" target="_blank" rel="noopener noreferrer">CL254</a></td>
+          <td></td>
+          <td colspan="3"></td>
+          <td colspan="3"><a href="https://meet.google.com/kpz-sssa-qsu?hs=224" target="_blank" rel="noopener noreferrer">GNR629</a></td>
+          <td></td>
+          <td colspan="3"></td>
+          <td colspan="3"></td>
+        </tr>
+
+        <tr>
+          <th colspan="2" scope="row">Friday</th>
+          <td colspan="2"></td>
+          <td colspan="3"><a href="https://piazza.com/class/kjl7jdxnkeb1zn" target="_blank" rel="noopener noreferrer">CS213M</a></td>
+          <td colspan="3"></td>
+          <td></td>
+          <td colspan="3"></td>
+          <td colspan="3"></td>
+          <td></td>
+          <td colspan="3"><a href="https://teams.microsoft.com/l/team/19%3a2f00ce5e25c14da8ab3100d8103d7202%40thread.tacv2/conversations?groupId=5fe9c08a-d8ed-4f4d-be0f-fa7cb9c5c36a&tenantId=403ee5f4-55b3-45cd-8ae2-824be887a075">CL202</a></td>
+          <td colspan="3"><a href="https://kaksha.webex.com/webappng/sites/kaksha/meeting/download/bd67ea3327dd4266a720b2606a2e781d?siteurl=kaksha&MTID=m39abb9b248f2119689fa561d6afa19c1" target="_blank" rel="noopener noreferrer">CL246</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+<div class="footer">
+&copy; Divyansh Natani, 2021
+</div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
